@@ -7,19 +7,19 @@ const animeData = [
     title: "Explore New Ideas",
     description: "Anime with the best battle scenes. Season 2 highly recommended.",
     name: "Jujutsu Kaisen",
-    image: "/jujutsu-kaisen.jpg",
+    image: "/my-image2.png",
   },
   {
     title: "Connect with Experts",
     description: "Anime with the best storyline.",
     name: "Naruto Shippuden",
-    image: "/naruto.jpg",
+    image: "my-image3.png",
   },
   {
     title: "Stay Updated",
     description: "Anime with both an amazing storyline and battle scenes.",
     name: "Demon Slayer",
-    image: "/demon-slayer.jpg",
+    image: "my-image1.png",
   },
 ];
 
@@ -29,7 +29,6 @@ const App = () => {
       {/* Header */}
       <nav className="bg-gray-900 text-white p-4" style={{ height: "7vh" }}>
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-lg md:text-2xl font-bold">My Website</h1>
           <ul className="flex space-x-4 text-sm md:text-base">
             <li><a href="#" className="hover:underline">Home</a></li>
             <li><a href="#" className="hover:underline">About</a></li>
